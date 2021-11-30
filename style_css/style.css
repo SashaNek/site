@@ -1,0 +1,397 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 18px;
+}
+/*header*/
+
+.head-menu{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 35px;
+   align-items:flex-start;
+   font-family: 'Poppins', sans-serif;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.header-nav  li{ 
+    
+    list-style-type: none;
+}
+.header-nav  a{
+    
+    margin-right: 31px; 
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    color: #fff;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #3988FF;    
+    padding: 8px 16px;
+    font-size: 18px; 
+    width: 140px;
+    height: 50px;   
+}
+.hi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    font-family: 'Lato', sans-serif;
+    
+}
+.text-hi{
+    font-size: 26px;
+    margin-top: 100px;
+}
+.text-hi h3{
+    font-size: 19px;
+}
+
+.img-web{
+    margin-top: 150px;
+    
+}
+
+.slider-down{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+/*header*/
+
+/*about*/
+.about-me{
+    text-align: center;
+    margin-top: 150px;
+}
+.about-me h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+}
+.about-me h3{
+    color: #575859;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.about-img{
+    display: flex;
+}
+
+.about-woomen{
+    width: 700px;
+    height: 500px;
+    margin-left: 10px;
+
+}
+.about-stats{
+    width: 450px;
+    height: 420px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.portfolio{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.img-portfolio{
+    margin-top: 80px;
+}
+
+/*about*/
+/*footer*/
+.footer{
+    margin-top: 100px;
+    background: #0a84ff;
+    height: 580px;   
+    display: flex; 
+    justify-content: space-evenly;
+}
+.icon-footer{
+    padding-top: 150px;
+    padding-left: 10px;
+    
+}
+.icon-viber,
+.icon-inst,
+.icon-tg,
+.icon-facebook,
+.icon-figma{
+    margin-top: 15px;
+    padding: 5px;
+}
+.img-footer-ris{
+    padding-top: 50px;
+}
+.text-footer{
+    color: #FFFFFF;
+    padding-top: 170px;
+}
+.text-services{
+    font-size: 24px;
+}
+.footer-text-services{
+    padding-top: 25px;
+}
+.icon-address{
+    margin-top: 20px;
+   
+}
+.text-address{
+    padding-left: 10px;
+}
+.footer-email{
+    padding-top: 25px;
+}
+.text-email a{
+    text-decoration: none;
+    color:#ffffff;
+    padding-left: 10px;
+}
+.footer-call{
+    padding-top: 25px;
+}
+.text-call a{
+    text-decoration: none;
+    color:#ffffff;
+    padding-left: 10px;
+}
+.form-text{
+    height: 450px;
+    width: 360px;
+    background-color: #C4C4C4;
+    border-radius: 15px;
+    margin-top: 80px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.text-up-form{
+    font-size: 20px;
+    color:#fff;
+    padding-left: 8px; 
+}
+.form,
+.form-textarea{
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: #fff;
+    color: #9A9EA5;
+    margin-top: 25px;
+    margin-left: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    resize: none;
+}
+.form-textarea{
+    height: 70px;
+}
+.btn-form-footer{
+    text-align: center;
+    padding-top: 15px;
+
+}
+.form-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 0px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+
+    transition: color .9s linear;
+    
+}
+.form-btn:hover{
+    background-color: #b5b7bb;
+}
+/*footer*/
+@media screen and (max-width: 1100px) {
+    .contener {
+        width: 1024px;
+     }
+     .about-img{
+         height: 300px;
+         width: auto;
+     }
+     .about-stats{
+         height: 300px;
+         width: auto;
+     }
+     .img-ris{
+         display: none;
+     }
+}
+@media screen and (max-width: 780px){
+    .contener {
+        width: 768px;
+     }
+     .head-menu {
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+    .text-hi{
+        font-size: 18px;
+    }
+    .web-img{
+        width: 400px;
+    }
+    .about-woomen{
+        height: 200px;
+        width: auto;
+    }
+    .about-stats{
+        height: 200px;
+        width: auto;
+    }
+    .portfolio-img{
+        width: 700px;
+        height: auto;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .contener {
+        width: 425px;
+     }
+     .head-menu {
+        display: contents;
+        font-size: 16px;
+     }
+     .img-logo{
+         display: none;
+     }
+     .btn{
+         display: none;
+     }
+     .web-img{
+         width: 250px;
+     }
+    .h1-text{
+        font-size: 18px;
+    }
+    .text-hi{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .about-img{
+        display: table;
+    }
+    .about-woomen{
+        width: 300px;
+        height: auto;
+    }
+    .about-stats{
+        margin-left: 0px;
+    }
+    .portfolio-img{
+        width: 400px;
+        height: auto;
+    }
+    .img-ris{
+        display: none;
+    }
+    .footer{
+        display: table;
+        width: 425px;
+    }
+    .icon-footer{
+        display: flex;
+        padding-top: 5px;
+        margin-left: 25px;
+    }
+    .text-footer{
+        padding-top: 5px;
+        margin-left: 35px;
+    }
+    .form-text{
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width: 390px){
+    .contener {
+        width: 375px;
+     }
+     .head-menu {
+        display: contents;
+        font-size: 16px;
+     }
+     .header-nav a{
+        margin-right: 20px;
+     }
+     .img-logo{
+         display: none;
+     }
+     .btn{
+         display: none;
+     }
+     .web-img{
+         width: 200px;
+     }
+    .h1-text{
+        font-size: 18px;
+    }
+    .text-hi{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .about-img{
+        display: table;
+    }
+    .about-woomen{
+        width: 300px;
+        height: auto;
+    }
+    .about-stats{
+        margin-left: 0px;
+    }
+    .portfolio-img{
+        width: 340px;
+        height: auto;
+    }
+    .img-ris{
+        display: none;
+    }
+    .footer{
+        display: table;
+        width: 375px;
+    }
+    .icon-footer{
+        display: flex;
+        padding-top: 5px;
+        margin-left: 25px;
+    }
+    .text-footer{
+        padding-top: 5px;
+        margin-left: 35px;
+    }
+    .form-text{
+        height: 445px;
+        width: 340px;
+    }
+}
